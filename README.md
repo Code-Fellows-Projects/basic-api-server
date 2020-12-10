@@ -6,7 +6,7 @@
 
 + [GitHub pull request ](https://github.com/stacyburris/basic-api-server/pull/1)
 + [GitHub](https://github.com/stacyburris/basic-api-server)
-+ 
+
 ### Setup
 
 .env requirements
@@ -38,7 +38,7 @@ Test:
 
 + UML
 
-+ ![UML Basic Api Server](assets/UML-03.png)
+ ![UML Basic Api Server](assets/UML-03.png)
 
 + Help from:
 
