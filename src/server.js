@@ -8,12 +8,12 @@ const logger = require('./middleware/logger');
 const notFoundHandler = require('./error-handlers/404');
 const serverError = require('./error-handlers/500');
 const clothesRoutes = require('./routes/clothes');
-
+const foodRoute = require('./routes/food');
 ////middleware
 app.use(express.json());
 app.use(logger);
 app.use(clothesRoutes);
-
+app.use(foodRoute);
 
 app.get('/tester', testerCallBackHandler);
 
